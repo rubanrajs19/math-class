@@ -16,3 +16,5 @@ $routes->delete('bookings/delete/(:num)', 'Bookings::delete/$1');
 $routes->get('bookings/total_students', 'Bookings::totalStudents');
 $routes->get('classrooms/classroomname', 'Classrooms::ClassroomByName');
 
+
+
